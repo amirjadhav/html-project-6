@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Allerta";
+  overflow-x: hidden;
+}
+
+#navbarMonstera {
+  width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: center;
+  font-size: 18px;
+}
+
+#navbarMonstera #navMid {
+  display: flex;
+}
+
+#navbarMonstera #navMid div {
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+#navbarMonstera #navMid div:first-child {
+  content: " ";
+  width: 50%;
+  border-bottom: 2px solid #000000;
+}
+
+#navbarMonstera #navEnd {
+  display: flex;
+}
+
+#navbarMonstera #navEnd div {
+  margin-right: 20px;
+}
+
+#midWhole {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4rem;
+}
+
+#monstera {
+  font-weight: 800;
+  margin-top: 8rem;
+  font-size: 150px;
+}
+
+#midWholePart11 li {
+  font-size: 18px;
+  width: 40rem;
+}
+#midWholePart121 {
+  width: 12rem;
+  margin-top: 5rem;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #466d50;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+#midWholePart13 {
+  display: flex;
+  margin-top: 6rem;
+}
+.midWholePart13Parts {
+  display: flex;
+  justify-content: space-evenly;
+}
+.midWholePart13Parts div {
+  margin-right: 1rem;
+}
+
+.midWholePart13Parts div h4 {
+  font-size: 20px;
+}
+.midWholePart13Parts div .text {
+  font-size: 13px;
+}
